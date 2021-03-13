@@ -6,7 +6,7 @@ import sys
 from matplotlib.figure import Figure
   
 # This is suppose to set the recursion limit higher than the default,
-# to make sure that we can cope with very large user input
+# to make sure that we can cope with very large user input!
 sys.setrecursionlimit(10**6) 
 
 
@@ -31,6 +31,7 @@ def _euler_algorithm(population, infected, recovered, alpha, gamma, count, step)
         val[1].append(S_next)
         val[2].append(I_next)
         val[3].append(R_next)
+
 
         return val
 

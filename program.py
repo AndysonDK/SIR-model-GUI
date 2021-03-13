@@ -13,7 +13,7 @@ from eulers_method import _configure_plot
 root = Tk()
 root.title("SIR modelling")
 
-# These initial values have the purpose to show the user an example
+# These initial values serves as an example
 population=10000
 infected=1
 recovered=0
